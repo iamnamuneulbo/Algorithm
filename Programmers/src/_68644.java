@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class 68644 {
+public class _68644 {
 
     public static void main(String[] args) {
         int[] a = {2,1,3,4,1};
