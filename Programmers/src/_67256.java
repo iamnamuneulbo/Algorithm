@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.Stack;
-
 public class _67256 {
     public static void main(String[] args) {
         System.out.println(solution(new int[]{7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left"));
