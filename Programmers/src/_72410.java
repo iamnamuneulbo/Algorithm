@@ -3,7 +3,7 @@ public class _72410 {
         System.out.println(solution("...!@BaT#*..y.abcdefghijklm."));
     }
 
-    public String solution(String new_id) {
+    public static String solution(String new_id) {
         String answer = new_id;
 
         answer = answer.toLowerCase().replaceAll("[^a-z0-9\\_\\.\\-]", "").replaceAll("\\.+", ".");
