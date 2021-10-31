@@ -7,6 +7,7 @@ public class _42862 {
         n=5, lost=[5,4,2], reserve=[2,4], return=4
         */
         System.out.println(solution(5, new int[]{1, 2}, new int[]{2, 3}));
+        System.out.println(solution(5, new int[]{5, 4, 2}, new int[]{2, 4}));
     }
 
     public static int solution(int n, int[] lost, int[] reserve) {
@@ -16,11 +17,12 @@ public class _42862 {
         Arrays.sort(reserve);
 
         for (int i = 0; i < lost.length; i++) {
-            int idx = Arrays.
-            if () {
-                lost[i] = -1;
-                reserve[idx] = -1;
-                answer++;
+            for (int j = 0; j < reserve.length; j++) {
+                if (lost[i] != -1 && lost[i] == reserve[j]) {
+                    lost[i] = -1;
+                    reserve[j] = -1;
+                    answer++;
+                }
             }
         }
 
